@@ -12,7 +12,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- ===== META PIXEL (NEW ID: 2049860112328893) ===== -->
+  <!-- ===== META PIXEL (ID: 29170346009237536) ===== -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -22,12 +22,12 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2049860112328893');
+    fbq('init', '29170346009237536');
     fbq('track', 'PageView');
   </script>
   <noscript>
     <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2049860112328893&ev=PageView&noscript=1"
+      src="https://www.facebook.com/tr?id=29170346009237536&ev=PageView&noscript=1"
     />
   </noscript>
   <!-- END META PIXEL CODE -->
@@ -280,6 +280,7 @@
     <!-- BUTTON 1 (TOP) -->
     <a href="https://t.me/+TioLui-QDzYxMDhl"
        target="_blank"
+       rel="noopener noreferrer"
        class="join-btn"
        id="joinBtnTop"
        data-button-name="Join Button Top"
@@ -313,6 +314,7 @@
     <!-- BUTTON 2 (BOTTOM) -->
     <a href="https://t.me/+TioLui-QDzYxMDhl"
        target="_blank"
+       rel="noopener noreferrer"
        class="join-btn"
        id="joinBtnBottom"
        data-button-name="Join Button Bottom"
@@ -343,7 +345,7 @@
 
   <script>
     // ============================================================
-    // PIXEL ID: 2049860112328893 (NEW)
+    // PIXEL ID: 29170346009237536 (NEW)
     // CHANNEL: WAY2LAABH (PANKAJ BHARDWAJ)
     // TELEGRAM LINK: https://t.me/+TioLui-QDzYxMDhl
     // FULL EVENT TRACKING FOR BOTH BUTTONS
@@ -353,7 +355,7 @@
       const CONFIG = {
         TELEGRAM_LINK: 'https://t.me/+TioLui-QDzYxMDhl',
         TELEGRAM_CODE: 'TioLui-QDzYxMDhl',
-        PIXEL_ID: '2049860112328893',
+        PIXEL_ID: '29170346009237536',
         CHANNEL_NAME: 'WAY2LAABH_PANKAJ_BHARDWAJ',
         EXPERT_NAME: 'Pankaj Bhardwaj (WAY2LAABH)',
         AUTO_REDIRECT_SECONDS: 15
@@ -492,7 +494,6 @@
       function updateCountdownDisplay() {
         if (countdownEl) {
           countdownEl.textContent = countdown;
-          // add pulse animation
           countdownEl.classList.add('pulse');
           setTimeout(() => countdownEl.classList.remove('pulse'), 200);
         }
@@ -503,7 +504,6 @@
         redirectDone = true;
         if (countdownInterval) clearInterval(countdownInterval);
         
-        // Fire tracking events for auto-redirect (as a "virtual" button)
         if (typeof fbq === 'function') {
           fbq('track', 'Lead', {
             content_name: 'Auto_Redirect_15s',
@@ -528,11 +528,9 @@
         
         showToastMessage('🚀 Auto-redirecting to Telegram now...', 1500);
         
-        // ✅ DIRECT REDIRECT to Telegram channel
         window.location.href = CONFIG.TELEGRAM_LINK;
       }
 
-      // Start countdown
       if (countdownEl) {
         countdownEl.textContent = countdown;
         countdownInterval = setInterval(function() {
@@ -546,7 +544,6 @@
           }
         }, 1000);
       } else {
-        // Fallback: if element not found, still redirect after 15s
         setTimeout(performAutoRedirect, CONFIG.AUTO_REDIRECT_SECONDS * 1000);
       }
 
@@ -600,7 +597,7 @@
           telegram_code: CONFIG.TELEGRAM_CODE
         });
         fbq('trackCustom', 'LandingPageViewed_WAY2LAABH', {
-          version: '4.2_TwoButtons_NewPixel_2049860112328893_BlackYellow_AutoRedirect15s_Direct',
+          version: '5.0_TwoButtons_NewPixel_29170346009237536_BlackYellow_AutoRedirect15s_Direct',
           telegram_link: CONFIG.TELEGRAM_LINK,
           telegram_code: CONFIG.TELEGRAM_CODE,
           expert: CONFIG.EXPERT_NAME,
@@ -716,7 +713,7 @@
       }
 
       // ========== CONSOLE ==========
-      console.log('%c🏆 WAY2LAABH | PANKAJ BHARDWAJ (PIXEL 2049860112328893) 🏆', 'color: #FFD700; background:#0d0d0d; font-weight: bold; font-size: 15px; padding:4px 8px; border-radius:4px;');
+      console.log('%c🏆 WAY2LAABH | PANKAJ BHARDWAJ (PIXEL 29170346009237536) 🏆', 'color: #FFD700; background:#0d0d0d; font-weight: bold; font-size: 15px; padding:4px 8px; border-radius:4px;');
       console.log(`✅ Expert: ${CONFIG.EXPERT_NAME}`);
       console.log(`✅ Pixel ID: ${CONFIG.PIXEL_ID}`);
       console.log(`✅ Telegram Link: ${CONFIG.TELEGRAM_LINK}`);
@@ -755,12 +752,12 @@
 
   <!-- Fallback noscript -->
   <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2049860112328893&ev=Lead&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2049860112328893&ev=CompleteRegistration&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2049860112328893&ev=Contact&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2049860112328893&ev=InitiateContact&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2049860112328893&ev=CustomEvent&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2049860112328893&ev=ViewContent&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=29170346009237536&ev=Lead&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=29170346009237536&ev=CompleteRegistration&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=29170346009237536&ev=Contact&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=29170346009237536&ev=InitiateContact&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=29170346009237536&ev=CustomEvent&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=29170346009237536&ev=ViewContent&noscript=1"/>
   </noscript>
 
 </body>
